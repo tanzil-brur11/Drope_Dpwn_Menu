@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -102,4 +103,110 @@ body{
 
 .fab{
     margin-right: 8px;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./drawing_room.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.manue_bar{
+    background-color: rgb(2, 112, 35);
+    text-align: center;
+
+}
+
+.manue_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.manue_bar ul li{
+    width: 120px;
+    margin: 14px;
+    padding: 14px;
+}
+
+.manue_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .manue_bar ul li:hover{
+    background-color: rgb(8, 189, 62);
+    border-radius: 5px;
+}
+
+.manue_bar .fas{
+    margin-right: 8px; 
+}
+
+.submanue01{
+    display: none;
+}
+
+.manue_bar ul li:hover .submanue01{
+    display: block;
+    position: absolute;
+    background-color:  rgb(5, 151, 49);
+    margin-top: 14px;
+    margin-left: -14px;
+    border-radius: 3px;
+}
+
+.manue_bar ul li:hover .submanue01 ul{
+    display: block;
+    /* margin: 10px; */
+}
+
+.manue_bar ul li:hover .submanue01 li{
+    width: 140px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px dotted white;
+    border-radius: none;
+}
+
+.manue_bar ul li:hover .submanue01 li:last-child{
+    border-bottom: none;
+}
+
+.manue_bar ul li:hover .submanue01 li a:hover{
+    color: black;
+}
+
+.fa-angle-double-right {
+    float: right;
+}
+
+.submanue02{
+    display: none;
+}
+
+.hover-me:hover .submanue02{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 130px;
+    background-color:rgb(5, 151, 49);
+}
+
+.hover-me:hover .submanue02 ul li a:hover{
+    color: black;
+}
+
+.fab{
+    margin-right: 8px;
+>>>>>>> 6f79e558408f2f704cf91636764bf747752679d9
 }
